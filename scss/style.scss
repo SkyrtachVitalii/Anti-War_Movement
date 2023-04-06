@@ -199,9 +199,7 @@ footer{
 
 .info{
     padding: 46px 0;
-    :nth-child(2){
-            margin-top: 40px;
-    }
+    
     &__text{
         font-family: $font-second;
         font-style: normal;
@@ -210,6 +208,9 @@ footer{
         line-height: 29px;
         text-align: justify;
         max-width: 100%;
+        &:nth-child(2){
+            margin-top: 40px;
+    }
     }
     &__main-text{
         font-family: $font-second;
