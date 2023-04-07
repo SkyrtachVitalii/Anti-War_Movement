@@ -415,11 +415,11 @@ footer {
 .slick-prev {
   left: -90px; }
 
-/* line 397, ../scss/style.scss */
+/* line 388, ../scss/style.scss */
 .slick-next {
   right: -90px; }
 
-/* line 410, ../scss/style.scss */
+/* line 392, ../scss/style.scss */
 .f-box {
   width: 100%;
   max-width: 1180px;
@@ -431,11 +431,11 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto 30px; }
-  /* line 417, ../scss/style.scss */
+  /* line 399, ../scss/style.scss */
   .f-box__item {
     width: 49%;
     max-width: 580px; }
-  /* line 421, ../scss/style.scss */
+  /* line 403, ../scss/style.scss */
   .f-box__email {
     color: #ffffff;
     width: 100%;
@@ -445,21 +445,21 @@ footer {
     border-top: none;
     border-left: none;
     border-right: none; }
-  /* line 431, ../scss/style.scss */
+  /* line 413, ../scss/style.scss */
   .f-box__btn {
     margin-top: 40px;
     display: block; }
 
-/* line 439, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 .f-social {
   margin-top: 60px; }
-  /* line 441, ../scss/style.scss */
+  /* line 423, ../scss/style.scss */
   .f-social__item {
     margin-left: 22px; }
-    /* line 443, ../scss/style.scss */
+    /* line 425, ../scss/style.scss */
     .f-social__item:first-child {
       margin-left: 0; }
-/* line 448, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 .f__heading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -468,17 +468,17 @@ footer {
   line-height: 39px;
   margin-left: 165px;
   margin-bottom: 62px; }
-/* line 457, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 .f__item {
   margin-left: 165px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px; }
-  /* line 461, ../scss/style.scss */
+  /* line 443, ../scss/style.scss */
   .f__item a {
     text-decoration: none;
     color: #ffffff; }
 
-/* line 468, ../scss/style.scss */
+/* line 450, ../scss/style.scss */
 .copyright {
   font-family: "Inter", sans-serif;
   color: rgba(255, 255, 255, 0.5);
@@ -492,7 +492,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 479, ../scss/style.scss */
+/* line 461, ../scss/style.scss */
 .test {
   width: 200px;
   background-color: #08c;
