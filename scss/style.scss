@@ -327,16 +327,21 @@ footer{
 .problemsSlider{
     margin-top: 70px;
     width: 85%;
+    max-width: 1200px;
     &__card{
         padding: 19px 13px;
-        width: 280px;
+        width: 100%;
+        max-width: 280px;
         background: #FFFFFF;
-        box-shadow: 0px 89px 36px rgba(0, 0, 0, 0.01), 0px 50px 30px rgba(0, 0, 0, 0.05), 0px 22px 22px rgba(0, 0, 0, 0.09), 0px 6px 12px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+        // box-shadow: 0px 89px 36px rgba(0, 0, 0, 0.01), 0px 50px 30px rgba(0, 0, 0, 0.05), 0px 22px 22px rgba(0, 0, 0, 0.09), 0px 6px 12px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
         position: relative;
         margin-bottom: 80px;
         margin-right: 10px;
         margin-left: 10px;
+        border-color: #000;
+        border-width: 2px;
+        border-style: double;
     }
     &__img{
         max-width: 254px;
@@ -352,6 +357,12 @@ footer{
         font-size: 24px;
         line-height: 39px;
         align-items: center;
+    }
+    &__descr{
+        font-family: $font-first;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 39px;
     }
     &__price{
         font-family: $font-second;
@@ -391,6 +402,40 @@ footer{
     &:hover{
         opacity: 0.5;
     }
+}
+
+.slick-dots{
+    position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        z-index: 10;
+        & li{
+            margin: 0 4px;
+            padding: 4px;
+
+        }
+        & button{
+            width: 12px;
+            height: 12px;
+            background-color: $text_block_bg;
+            border-radius: 50%;
+            outline: none;
+            border: 0;
+            font-size: 0;
+            cursor: pointer;
+        }
+}
+
+.slick-active button{
+    background-color: #000;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
 }
 
 .slick-prev{
