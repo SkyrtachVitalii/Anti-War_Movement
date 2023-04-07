@@ -76,6 +76,7 @@ footer{
     &__text {
         font-size: 32px;
         text-align: center;
+        font-family: $font-first;
     }
     &__footer{
         justify-content: center;
@@ -446,35 +447,57 @@ footer{
     right: -90px;
 }
 
-.f-box{
-    width: 100%;
-    max-width: 1180px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto 30px;
+.docs{
+    margin: 30px auto;
+    justify-content: center;
     &__item{
-        width: 49%;
-        max-width: 580px;
+        margin: 0 20px;
+        padding: 10px;
+        border-color: #fff;
+        border-width: 2px;
+        border-style: solid;
+        
+        & a{
+            text-decoration: none;
+            color: #fff;
+            font-family: $font-first;
+        }
+        &:hover{
+            opacity: 0.5;
+            cursor: pointer;
+        }
     }
-    &__email{
-        color: $text_hf_color;
-        width: 100%;
-        max-width: 533px;
-        height: 43px;
-        background: #000;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-    }
-    &__btn{
-        margin-top: 40px;
-        display: block;
-    }
-    
 }
 
+
 .f{
+    &-box{
+        width: 100%;
+        max-width: 1180px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 30px;
+        &__item{
+            width: 49%;
+            max-width: 580px;
+        }
+        &__email{
+            color: $text_hf_color;
+            width: 100%;
+            max-width: 533px;
+            height: 43px;
+            background: #000;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        &__btn{
+            margin-top: 40px;
+            display: block;
+        }
+        
+    }
     &-social{
         margin-top: 60px;
         &__item{
@@ -501,6 +524,10 @@ footer{
             text-decoration: none;
             color: $text_hf_color;
         }
+    }
+    &__info{
+        font-family: $font-first;
+        text-align: justify;
     }
 }
 

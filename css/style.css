@@ -79,14 +79,15 @@ footer {
   /* line 76, ../scss/style.scss */
   .title__text {
     font-size: 32px;
-    text-align: center; }
-  /* line 80, ../scss/style.scss */
+    text-align: center;
+    font-family: "Montserrat", sans-serif; }
+  /* line 81, ../scss/style.scss */
   .title__footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
 
-/* line 85, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .menu {
   width: 577px;
   list-style: none;
@@ -98,32 +99,32 @@ footer {
   text-transform: uppercase;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  /* line 95, ../scss/style.scss */
+  /* line 96, ../scss/style.scss */
   .menu__link {
     text-decoration: none;
     color: #ffffff; }
-    /* line 98, ../scss/style.scss */
+    /* line 99, ../scss/style.scss */
     .menu__link:hover {
       opacity: 0.5; }
 
-/* line 104, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 .dropdown {
   font-weight: 400; }
-  /* line 106, ../scss/style.scss */
+  /* line 107, ../scss/style.scss */
   .dropdown__item {
     color: #ffffff; }
-    /* line 108, ../scss/style.scss */
+    /* line 109, ../scss/style.scss */
     .dropdown__item:hover {
       opacity: 0.5; }
-    /* line 111, ../scss/style.scss */
+    /* line 112, ../scss/style.scss */
     .dropdown__item--active {
       font-weight: 700; }
 
-/* line 117, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .h-content {
   margin-top: 10px;
   margin-bottom: 60px; }
-  /* line 120, ../scss/style.scss */
+  /* line 121, ../scss/style.scss */
   .h-content__text {
     margin-top: 192px;
     margin-bottom: 60px;
@@ -131,13 +132,13 @@ footer {
     font-size: 32px;
     line-height: 38px;
     text-align: justify; }
-  /* line 128, ../scss/style.scss */
+  /* line 129, ../scss/style.scss */
   .h-content__note {
     margin-top: 21px;
     font-size: 25px;
     line-height: 29px; }
 
-/* line 135, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -154,17 +155,17 @@ footer {
   font-size: 1rem;
   text-align: center;
   border-radius: 10px; }
-  /* line 148, ../scss/style.scss */
+  /* line 149, ../scss/style.scss */
   .btn:hover {
     opacity: 0.5; }
-  /* line 151, ../scss/style.scss */
+  /* line 152, ../scss/style.scss */
   .btn__primary {
     background-color: #fce000;
     border: 1px solid #fce000;
     font-family: "Montserrat", sans-serif;
     height: 50px;
     width: 300px; }
-  /* line 158, ../scss/style.scss */
+  /* line 159, ../scss/style.scss */
   .btn__secondary {
     background: #000000;
     color: #fff;
@@ -175,20 +176,20 @@ footer {
     margin-bottom: 80px;
     border: 1px solid #000; }
 
-/* line 170, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .content {
   font-family: "Montserrat", sans-serif; }
-  /* line 172, ../scss/style.scss */
+  /* line 173, ../scss/style.scss */
   .content__box {
     margin: 60px 0; }
-    /* line 174, ../scss/style.scss */
+    /* line 175, ../scss/style.scss */
     .content__box--heading {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
       margin: 140px auto auto 110px; }
-  /* line 179, ../scss/style.scss */
+  /* line 180, ../scss/style.scss */
   .content__heading {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -202,7 +203,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     text-align: center; }
-  /* line 189, ../scss/style.scss */
+  /* line 190, ../scss/style.scss */
   .content__note {
     font-family: "Montserrat", sans-serif;
     margin: 15px auto 0;
@@ -212,7 +213,7 @@ footer {
     line-height: 70px;
     text-align: center;
     letter-spacing: 0.21em; }
-  /* line 199, ../scss/style.scss */
+  /* line 200, ../scss/style.scss */
   .content__descr {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -224,10 +225,10 @@ footer {
     padding: 0 10px;
     margin: 0 -10px 20px; }
 
-/* line 212, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .info {
   padding: 46px 0; }
-  /* line 215, ../scss/style.scss */
+  /* line 216, ../scss/style.scss */
   .info__text {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -236,10 +237,10 @@ footer {
     line-height: 29px;
     text-align: justify;
     max-width: 100%; }
-    /* line 223, ../scss/style.scss */
+    /* line 224, ../scss/style.scss */
     .info__text:nth-child(2) {
       margin-top: 40px; }
-  /* line 227, ../scss/style.scss */
+  /* line 228, ../scss/style.scss */
   .info__main-text {
     font-family: "Roboto", sans-serif;
     text-align: justify;
@@ -249,7 +250,7 @@ footer {
     font-size: 32px;
     line-height: 39px; }
 
-/* line 238, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 .narrow-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,7 +273,7 @@ footer {
   width: 100%;
   background: #FFFFFF;
   padding: 20px; }
-  /* line 252, ../scss/style.scss */
+  /* line 253, ../scss/style.scss */
   .narrow-box__heading {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -283,7 +284,7 @@ footer {
     letter-spacing: 0.21em;
     width: 580px;
     margin-bottom: 20px; }
-  /* line 263, ../scss/style.scss */
+  /* line 264, ../scss/style.scss */
   .narrow-box__descr {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -294,13 +295,13 @@ footer {
     max-width: 100%;
     width: 980px;
     margin-bottom: 40px; }
-  /* line 274, ../scss/style.scss */
+  /* line 275, ../scss/style.scss */
   .narrow-box__img {
     width: 780px;
     height: auto;
     max-width: 100%;
     margin-bottom: 60px; }
-  /* line 280, ../scss/style.scss */
+  /* line 281, ../scss/style.scss */
   .narrow-box__text {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -310,7 +311,7 @@ footer {
     text-align: justify;
     max-width: 960px;
     margin-bottom: 60px; }
-  /* line 290, ../scss/style.scss */
+  /* line 291, ../scss/style.scss */
   .narrow-box__form {
     max-width: 980px;
     width: 100%;
@@ -329,7 +330,7 @@ footer {
         -ms-flex-pack: justify;
             justify-content: space-between;
     background: #FFFFFF; }
-  /* line 303, ../scss/style.scss */
+  /* line 304, ../scss/style.scss */
   .narrow-box__email {
     background: #FFFFFF;
     width: 480px;
@@ -337,13 +338,13 @@ footer {
     border-top: none;
     border-left: none;
     border-right: none; }
-  /* line 311, ../scss/style.scss */
+  /* line 312, ../scss/style.scss */
   .narrow-box__social {
     margin-top: 45px; }
-  /* line 315, ../scss/style.scss */
+  /* line 316, ../scss/style.scss */
   .narrow-box__socialIMG:nth-child(odd) {
     margin: 0 78px; }
-  /* line 319, ../scss/style.scss */
+  /* line 320, ../scss/style.scss */
   .narrow-box--noShadow {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -351,12 +352,12 @@ footer {
     margin-bottom: 0;
     padding: 0; }
 
-/* line 327, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .problemsSlider {
   margin-top: 70px;
   width: 85%;
   max-width: 1200px; }
-  /* line 331, ../scss/style.scss */
+  /* line 332, ../scss/style.scss */
   .problemsSlider__card {
     padding: 19px 13px;
     width: 100%;
@@ -370,14 +371,14 @@ footer {
     border-color: #000;
     border-width: 2px;
     border-style: double; }
-  /* line 346, ../scss/style.scss */
+  /* line 347, ../scss/style.scss */
   .problemsSlider__img {
     max-width: 254px;
     width: 100%;
     height: 223px;
     border-radius: 10px;
     text-align: center; }
-  /* line 353, ../scss/style.scss */
+  /* line 354, ../scss/style.scss */
   .problemsSlider__heading {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -387,20 +388,20 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  /* line 361, ../scss/style.scss */
+  /* line 362, ../scss/style.scss */
   .problemsSlider__descr {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 39px; }
-  /* line 367, ../scss/style.scss */
+  /* line 368, ../scss/style.scss */
   .problemsSlider__price {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 29px; }
-  /* line 374, ../scss/style.scss */
+  /* line 375, ../scss/style.scss */
   .problemsSlider__fundrasing {
     color: #fff;
     position: absolute;
@@ -417,7 +418,7 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-size: 17px; }
 
-/* line 392, ../scss/style.scss */
+/* line 393, ../scss/style.scss */
 .slick-arrow {
   width: 70px;
   height: 70px;
@@ -428,11 +429,11 @@ footer {
   border: none;
   outline: none;
   font-size: 0; }
-  /* line 402, ../scss/style.scss */
+  /* line 403, ../scss/style.scss */
   .slick-arrow:hover {
     opacity: 0.5; }
 
-/* line 407, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .slick-dots {
   position: absolute;
   left: 0;
@@ -449,11 +450,11 @@ footer {
           justify-content: center;
   list-style: none;
   z-index: 10; }
-  /* line 417, ../scss/style.scss */
+  /* line 418, ../scss/style.scss */
   .slick-dots li {
     margin: 0 4px;
     padding: 4px; }
-  /* line 422, ../scss/style.scss */
+  /* line 423, ../scss/style.scss */
   .slick-dots button {
     width: 12px;
     height: 12px;
@@ -464,22 +465,45 @@ footer {
     font-size: 0;
     cursor: pointer; }
 
-/* line 434, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .slick-active button {
   background-color: #000;
   width: 18px;
   height: 18px;
   margin-bottom: -3px; }
 
-/* line 441, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 .slick-prev {
   left: -90px; }
 
-/* line 445, ../scss/style.scss */
+/* line 446, ../scss/style.scss */
 .slick-next {
   right: -90px; }
 
-/* line 449, ../scss/style.scss */
+/* line 450, ../scss/style.scss */
+.docs {
+  margin: 30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 453, ../scss/style.scss */
+  .docs__item {
+    margin: 0 20px;
+    padding: 10px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid; }
+    /* line 460, ../scss/style.scss */
+    .docs__item a {
+      text-decoration: none;
+      color: #fff;
+      font-family: "Montserrat", sans-serif; }
+    /* line 465, ../scss/style.scss */
+    .docs__item:hover {
+      opacity: 0.5;
+      cursor: pointer; }
+
+/* line 474, ../scss/style.scss */
 .f-box {
   width: 100%;
   max-width: 1180px;
@@ -491,11 +515,11 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto 30px; }
-  /* line 456, ../scss/style.scss */
+  /* line 481, ../scss/style.scss */
   .f-box__item {
     width: 49%;
     max-width: 580px; }
-  /* line 460, ../scss/style.scss */
+  /* line 485, ../scss/style.scss */
   .f-box__email {
     color: #ffffff;
     width: 100%;
@@ -505,21 +529,20 @@ footer {
     border-top: none;
     border-left: none;
     border-right: none; }
-  /* line 470, ../scss/style.scss */
+  /* line 495, ../scss/style.scss */
   .f-box__btn {
     margin-top: 40px;
     display: block; }
-
-/* line 478, ../scss/style.scss */
+/* line 501, ../scss/style.scss */
 .f-social {
   margin-top: 60px; }
-  /* line 480, ../scss/style.scss */
+  /* line 503, ../scss/style.scss */
   .f-social__item {
     margin-left: 22px; }
-    /* line 482, ../scss/style.scss */
+    /* line 505, ../scss/style.scss */
     .f-social__item:first-child {
       margin-left: 0; }
-/* line 487, ../scss/style.scss */
+/* line 510, ../scss/style.scss */
 .f__heading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -528,17 +551,21 @@ footer {
   line-height: 39px;
   margin-left: 165px;
   margin-bottom: 62px; }
-/* line 496, ../scss/style.scss */
+/* line 519, ../scss/style.scss */
 .f__item {
   margin-left: 165px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px; }
-  /* line 500, ../scss/style.scss */
+  /* line 523, ../scss/style.scss */
   .f__item a {
     text-decoration: none;
     color: #ffffff; }
+/* line 528, ../scss/style.scss */
+.f__info {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify; }
 
-/* line 507, ../scss/style.scss */
+/* line 534, ../scss/style.scss */
 .copyright {
   font-family: "Inter", sans-serif;
   color: rgba(255, 255, 255, 0.5);
@@ -552,7 +579,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 518, ../scss/style.scss */
+/* line 545, ../scss/style.scss */
 .test {
   width: 200px;
   background-color: #08c;
