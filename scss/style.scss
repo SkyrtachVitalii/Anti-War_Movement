@@ -29,14 +29,14 @@ header {
 footer{
     background-color: #000000;
     color: $text_hf_color;
-    width: 100%;
 }
 
 .container{
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     &--footer{
         max-width: 100%;
         padding-bottom: 10px;

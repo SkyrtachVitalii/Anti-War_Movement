@@ -21,15 +21,15 @@ header {
 /* line 29, ../scss/style.scss */
 footer {
   background-color: #000000;
-  color: #ffffff;
-  width: 100%; }
+  color: #ffffff; }
 
-/* line 35, ../scss/style.scss */
+/* line 34, ../scss/style.scss */
 .container {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0 15px; }
+  padding-left: 15px;
+  padding-right: 15px; }
   /* line 40, ../scss/style.scss */
   .container--footer {
     max-width: 100%;
