@@ -19,10 +19,11 @@ $text_footer_color: #000000;
 header {
     font-family: $font-first;
     color: $text_hf_color;
-    background-image: url("../media/images/header-bg.png");
     height: 100vh;
+    background-image: url("../media/images/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #212529;
 }
 
 footer{
@@ -260,6 +261,9 @@ footer{
         margin-bottom: 40px;
     }
     &__img{
+        width: 780px;
+        height: auto;
+        max-width: 100%;
         margin-bottom: 60px;
     }
     &__text{
@@ -269,7 +273,7 @@ footer{
         font-size: 24px;
         line-height: 29px;
         text-align: justify;
-        width: 960px;
+        max-width: 960px;
         margin-bottom: 60px;
     }
     &__form{
