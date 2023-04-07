@@ -493,17 +493,17 @@ footer {
     border-color: #fff;
     border-width: 2px;
     border-style: solid; }
-    /* line 460, ../scss/style.scss */
+    /* line 459, ../scss/style.scss */
     .docs__item a {
       text-decoration: none;
       color: #fff;
       font-family: "Montserrat", sans-serif; }
-    /* line 465, ../scss/style.scss */
+    /* line 464, ../scss/style.scss */
     .docs__item:hover {
       opacity: 0.5;
       cursor: pointer; }
 
-/* line 475, ../scss/style.scss */
+/* line 472, ../scss/style.scss */
 .f-box {
   width: 100%;
   max-width: 1180px;
@@ -515,11 +515,11 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto 30px; }
-  /* line 482, ../scss/style.scss */
+  /* line 479, ../scss/style.scss */
   .f-box__item {
     width: 49%;
     max-width: 580px; }
-  /* line 486, ../scss/style.scss */
+  /* line 483, ../scss/style.scss */
   .f-box__email {
     color: #ffffff;
     width: 100%;
@@ -529,20 +529,20 @@ footer {
     border-top: none;
     border-left: none;
     border-right: none; }
-  /* line 496, ../scss/style.scss */
+  /* line 493, ../scss/style.scss */
   .f-box__btn {
     margin-top: 40px;
     display: block; }
-/* line 502, ../scss/style.scss */
+/* line 499, ../scss/style.scss */
 .f-social {
   margin-top: 60px; }
-  /* line 504, ../scss/style.scss */
+  /* line 501, ../scss/style.scss */
   .f-social__item {
     margin-left: 22px; }
-    /* line 506, ../scss/style.scss */
+    /* line 503, ../scss/style.scss */
     .f-social__item:first-child {
       margin-left: 0; }
-/* line 511, ../scss/style.scss */
+/* line 508, ../scss/style.scss */
 .f__heading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -551,21 +551,21 @@ footer {
   line-height: 39px;
   margin-left: 165px;
   margin-bottom: 62px; }
-/* line 520, ../scss/style.scss */
+/* line 517, ../scss/style.scss */
 .f__item {
   margin-left: 165px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px; }
-  /* line 524, ../scss/style.scss */
+  /* line 521, ../scss/style.scss */
   .f__item a {
     text-decoration: none;
     color: #ffffff; }
-/* line 529, ../scss/style.scss */
+/* line 526, ../scss/style.scss */
 .f__info {
   font-family: "Montserrat", sans-serif;
   text-align: justify; }
 
-/* line 535, ../scss/style.scss */
+/* line 532, ../scss/style.scss */
 .copyright {
   font-family: "Inter", sans-serif;
   color: rgba(255, 255, 255, 0.5);
@@ -579,7 +579,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 546, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 .test {
   width: 200px;
   background-color: #08c;
