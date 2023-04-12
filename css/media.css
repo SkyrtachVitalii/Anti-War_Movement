@@ -3,53 +3,53 @@
   .h-content__text {
     margin-top: 0; } }
 @media only screen and (max-width: 1200px) {
-  /* line 11, ../scss/media_quaires.scss */
+  /* line 8, ../scss/media_quaires.scss */
   .title__text {
     font-size: 24px; }
 
-  /* line 15, ../scss/media_quaires.scss */
+  /* line 12, ../scss/media_quaires.scss */
   .menu {
     width: 415px;
     font-size: 16px; }
 
-  /* line 20, ../scss/media_quaires.scss */
+  /* line 17, ../scss/media_quaires.scss */
   .h-content__text {
     margin-bottom: 40px;
     width: 469px;
     font-size: 22px;
     line-height: 32px; }
 
-  /* line 27, ../scss/media_quaires.scss */
+  /* line 24, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 95px;
     line-height: 72px; }
 
-  /* line 32, ../scss/media_quaires.scss */
+  /* line 29, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 21px;
     line-height: 24px;
     width: 323px; } }
 @media only screen and (max-width: 992px) {
-  /* line 40, ../scss/media_quaires.scss */
+  /* line 37, ../scss/media_quaires.scss */
   .top--menu {
     height: 110px; }
 
-  /* line 44, ../scss/media_quaires.scss */
+  /* line 41, ../scss/media_quaires.scss */
   .title__text {
     font-size: 20px; }
 
-  /* line 48, ../scss/media_quaires.scss */
+  /* line 45, ../scss/media_quaires.scss */
   .menu {
     width: 415px;
     font-size: 16px; }
 
-  /* line 53, ../scss/media_quaires.scss */
+  /* line 50, ../scss/media_quaires.scss */
   .h-content {
     margin-top: 10px;
     margin-bottom: 60px;
     text-align: center; }
 
-  /* line 59, ../scss/media_quaires.scss */
+  /* line 56, ../scss/media_quaires.scss */
   .h-content__text {
     margin-bottom: 0;
     width: 100%;
@@ -57,61 +57,66 @@
     line-height: 36px;
     padding: 0 70px; }
 
-  /* line 67, ../scss/media_quaires.scss */
+  /* line 64, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 60px;
     line-height: 53px; }
 
-  /* line 72, ../scss/media_quaires.scss */
+  /* line 69, ../scss/media_quaires.scss */
   .content__box--heading {
     margin-left: 90px;
     margin-right: 10px;
     margin-top: 90px; }
 
-  /* line 78, ../scss/media_quaires.scss */
+  /* line 75, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 21px;
     line-height: 24px;
     width: 323px; }
 
-  /* line 84, ../scss/media_quaires.scss */
+  /* line 81, ../scss/media_quaires.scss */
   .content__note {
     font-size: 36px;
     line-height: 36px; }
 
-  /* line 89, ../scss/media_quaires.scss */
+  /* line 86, ../scss/media_quaires.scss */
   .narrow-box__email {
     width: 280px;
     background: #efefef;
     border-radius: 10px;
     border: none; }
-  /* line 95, ../scss/media_quaires.scss */
+  /* line 92, ../scss/media_quaires.scss */
   .narrow-box__form {
     display: block;
     text-align: center; }
-  /* line 99, ../scss/media_quaires.scss */
+  /* line 96, ../scss/media_quaires.scss */
   .narrow-box__socialIMG:nth-child(2n + 1) {
     margin: 0 20px; }
-  /* line 102, ../scss/media_quaires.scss */
+  /* line 99, ../scss/media_quaires.scss */
   .narrow-box__btn {
     width: 280px; }
 
-  /* line 107, ../scss/media_quaires.scss */
+  /* line 104, ../scss/media_quaires.scss */
   .f__heading {
     margin: 40px auto 10px; }
-  /* line 110, ../scss/media_quaires.scss */
+  /* line 107, ../scss/media_quaires.scss */
   .f__item {
-    margin: 0 auto 10px; } }
+    margin: 0 auto 10px; }
+
+  /* line 112, ../scss/media_quaires.scss */
+  .modal__btn {
+    width: 100%;
+    max-width: 580px; } }
 @media only screen and (max-width: 768px) {
-  /* line 118, ../scss/media_quaires.scss */
+  /* line 120, ../scss/media_quaires.scss */
   body.lock {
     overflow: hidden; }
 
-  /* line 122, ../scss/media_quaires.scss */
+  /* line 124, ../scss/media_quaires.scss */
   .title__text {
     font-size: 24px; }
 
-  /* line 127, ../scss/media_quaires.scss */
+  /* line 129, ../scss/media_quaires.scss */
   .header__burger {
     display: block;
     position: absolute;
@@ -119,10 +124,10 @@
     height: 20px;
     right: 7%;
     cursor: pointer; }
-    /* line 134, ../scss/media_quaires.scss */
+    /* line 136, ../scss/media_quaires.scss */
     .header__burger:hover {
       opacity: 0.5; }
-    /* line 137, ../scss/media_quaires.scss */
+    /* line 139, ../scss/media_quaires.scss */
     .header__burger::before, .header__burger::after {
       content: "";
       background-color: #fff;
@@ -130,7 +135,7 @@
       width: 100%;
       height: 2px;
       right: 0; }
-    /* line 146, ../scss/media_quaires.scss */
+    /* line 148, ../scss/media_quaires.scss */
     .header__burger span {
       position: absolute;
       background-color: #fff;
@@ -138,14 +143,14 @@
       width: 100%;
       height: 2px;
       top: 9px; }
-    /* line 154, ../scss/media_quaires.scss */
+    /* line 156, ../scss/media_quaires.scss */
     .header__burger::before {
       top: 0; }
-    /* line 157, ../scss/media_quaires.scss */
+    /* line 159, ../scss/media_quaires.scss */
     .header__burger::after {
       bottom: 0; }
 
-  /* line 163, ../scss/media_quaires.scss */
+  /* line 165, ../scss/media_quaires.scss */
   .nav-back {
     display: none;
     z-index: 9;
@@ -156,20 +161,20 @@
     top: 0;
     right: 0; }
 
-  /* line 174, ../scss/media_quaires.scss */
+  /* line 176, ../scss/media_quaires.scss */
   .navigation {
     display: none;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     z-index: 10; }
 
-  /* line 181, ../scss/media_quaires.scss */
+  /* line 183, ../scss/media_quaires.scss */
   .mobile__header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
 
-  /* line 185, ../scss/media_quaires.scss */
+  /* line 187, ../scss/media_quaires.scss */
   .menu {
     position: fixed;
     top: calc(14%);
@@ -184,11 +189,11 @@
     display: block;
     cursor: pointer; }
 
-  /* line 200, ../scss/media_quaires.scss */
+  /* line 202, ../scss/media_quaires.scss */
   .h-content {
     margin-bottom: 20px; }
 
-  /* line 204, ../scss/media_quaires.scss */
+  /* line 206, ../scss/media_quaires.scss */
   .h-content__text {
     margin-top: 90px;
     margin-bottom: 106px;
@@ -197,13 +202,13 @@
     line-height: 33px;
     padding: 0 25px; }
 
-  /* line 213, ../scss/media_quaires.scss */
+  /* line 215, ../scss/media_quaires.scss */
   .h-content__note {
     margin-top: 28px;
     font-size: 18px;
     line-height: 20px; }
 
-  /* line 219, ../scss/media_quaires.scss */
+  /* line 221, ../scss/media_quaires.scss */
   .burger-social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,178 +216,178 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-top: 60px; }
-    /* line 224, ../scss/media_quaires.scss */
+    /* line 226, ../scss/media_quaires.scss */
     .burger-social__item:hover {
       opacity: 0.5; }
-    /* line 227, ../scss/media_quaires.scss */
+    /* line 229, ../scss/media_quaires.scss */
     .burger-social__item:first-child {
       margin-left: 10px; }
-    /* line 230, ../scss/media_quaires.scss */
+    /* line 232, ../scss/media_quaires.scss */
     .burger-social__item:last-child {
       margin-right: 10px; }
 
-  /* line 236, ../scss/media_quaires.scss */
+  /* line 238, ../scss/media_quaires.scss */
   .content__box {
     margin: 30px 0; }
 
-  /* line 240, ../scss/media_quaires.scss */
+  /* line 242, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 43px;
     line-height: 42px; }
 
-  /* line 245, ../scss/media_quaires.scss */
+  /* line 247, ../scss/media_quaires.scss */
   .content__box--heading {
     margin-left: 20px;
     margin-right: 10px;
     margin-top: 35px; }
 
-  /* line 251, ../scss/media_quaires.scss */
+  /* line 253, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 18px;
     line-height: 20px;
     width: 292px; }
 
-  /* line 257, ../scss/media_quaires.scss */
+  /* line 259, ../scss/media_quaires.scss */
   .content__note {
     font-size: 25px;
     line-height: 15px; }
 
-  /* line 262, ../scss/media_quaires.scss */
+  /* line 264, ../scss/media_quaires.scss */
   .info__text {
     font-size: 20px;
     line-height: 29px; }
 
-  /* line 267, ../scss/media_quaires.scss */
+  /* line 269, ../scss/media_quaires.scss */
   .narrow-box {
     margin-top: 20px;
     margin-bottom: 20px; }
-    /* line 270, ../scss/media_quaires.scss */
+    /* line 272, ../scss/media_quaires.scss */
     .narrow-box__heading {
       font-size: 40px;
       width: 410px; }
 
-  /* line 275, ../scss/media_quaires.scss */
+  /* line 277, ../scss/media_quaires.scss */
   .f-box {
     display: block;
     text-align: center;
     padding: 0; }
-    /* line 279, ../scss/media_quaires.scss */
+    /* line 281, ../scss/media_quaires.scss */
     .f-box__item {
       width: 100%;
       margin: 0 auto; }
-      /* line 282, ../scss/media_quaires.scss */
+      /* line 284, ../scss/media_quaires.scss */
       .f-box__item button {
         margin: 0 auto; }
-    /* line 286, ../scss/media_quaires.scss */
+    /* line 288, ../scss/media_quaires.scss */
     .f-box__email {
       margin-bottom: 20px; }
 
-  /* line 290, ../scss/media_quaires.scss */
+  /* line 292, ../scss/media_quaires.scss */
   .f-social {
     margin-top: 40px;
     -ms-flex-pack: distribute;
         justify-content: space-around; } }
 @media only screen and (max-width: 576px) {
-  /* line 297, ../scss/media_quaires.scss */
+  /* line 299, ../scss/media_quaires.scss */
   .menu {
     position: fixed;
     left: calc(21%); }
 
-  /* line 302, ../scss/media_quaires.scss */
+  /* line 304, ../scss/media_quaires.scss */
   .h-content__text {
     margin-top: 40px;
     margin-bottom: 50px; }
 
-  /* line 307, ../scss/media_quaires.scss */
+  /* line 309, ../scss/media_quaires.scss */
   .title__text {
     font-size: 20px; }
 
-  /* line 311, ../scss/media_quaires.scss */
+  /* line 313, ../scss/media_quaires.scss */
   .container--heading {
     display: block; }
 
-  /* line 316, ../scss/media_quaires.scss */
+  /* line 318, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 81px;
     line-height: 57px; }
 
-  /* line 322, ../scss/media_quaires.scss */
+  /* line 324, ../scss/media_quaires.scss */
   .content__box--heading button {
     margin: 0 auto; }
 
-  /* line 327, ../scss/media_quaires.scss */
+  /* line 329, ../scss/media_quaires.scss */
   .content__note {
     font-size: 45px;
     line-height: 38px; }
 
-  /* line 332, ../scss/media_quaires.scss */
+  /* line 334, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 32px;
     line-height: 35px;
     width: 100%;
     margin: 0px auto 40px; }
 
-  /* line 338, ../scss/media_quaires.scss */
+  /* line 340, ../scss/media_quaires.scss */
   .info__main-text {
     text-align: left;
     font-style: normal;
     font-size: 20px;
     line-height: 30px; }
 
-  /* line 344, ../scss/media_quaires.scss */
+  /* line 346, ../scss/media_quaires.scss */
   .btn__show-all-needs {
     width: 100%; }
 
-  /* line 347, ../scss/media_quaires.scss */
+  /* line 349, ../scss/media_quaires.scss */
   .docs {
     margin: 5px auto;
     display: block;
     line-height: 30px;
     width: 100%; }
-    /* line 352, ../scss/media_quaires.scss */
+    /* line 354, ../scss/media_quaires.scss */
     .docs__item {
       display: block;
       margin: 0;
       padding: 3px;
       border: none; } }
 @media only screen and (max-width: 450px) {
-  /* line 362, ../scss/media_quaires.scss */
+  /* line 364, ../scss/media_quaires.scss */
   .menu {
     left: calc(16%); }
 
-  /* line 366, ../scss/media_quaires.scss */
+  /* line 368, ../scss/media_quaires.scss */
   .title__text {
     font-size: 18px; }
 
-  /* line 369, ../scss/media_quaires.scss */
+  /* line 371, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 64px;
     line-height: 45px; }
 
-  /* line 373, ../scss/media_quaires.scss */
+  /* line 375, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 21px;
     line-height: 30px; }
 
-  /* line 378, ../scss/media_quaires.scss */
+  /* line 380, ../scss/media_quaires.scss */
   .narrow-box__heading {
     font-size: 30px;
     width: 100%;
     line-height: 42px; }
-  /* line 383, ../scss/media_quaires.scss */
+  /* line 385, ../scss/media_quaires.scss */
   .narrow-box__descr {
     font-size: 24px;
     line-height: 36px; } }
 @media only screen and (max-width: 400px) {
-  /* line 391, ../scss/media_quaires.scss */
+  /* line 393, ../scss/media_quaires.scss */
   .title__text {
     font-size: 14px; }
 
-  /* line 395, ../scss/media_quaires.scss */
+  /* line 397, ../scss/media_quaires.scss */
   .menu {
     left: calc(12%); }
 
-  /* line 398, ../scss/media_quaires.scss */
+  /* line 400, ../scss/media_quaires.scss */
   .h-content__text {
     margin-top: 0;
     margin-bottom: 25px;
@@ -390,17 +395,17 @@
     line-height: 29px;
     text-align: center; }
 
-  /* line 405, ../scss/media_quaires.scss */
+  /* line 407, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 64px;
     line-height: 45px; }
 
-  /* line 409, ../scss/media_quaires.scss */
+  /* line 411, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 21px;
     line-height: 30px; } }
 @media only screen and (max-width: 360px) {
-  /* line 416, ../scss/media_quaires.scss */
+  /* line 418, ../scss/media_quaires.scss */
   .menu {
     position: absolute;
     line-height: 60px;
@@ -409,21 +414,21 @@
     top: 0;
     left: 0; }
 
-  /* line 426, ../scss/media_quaires.scss */
+  /* line 428, ../scss/media_quaires.scss */
   .btn__primary {
     width: 280px; }
 
-  /* line 430, ../scss/media_quaires.scss */
+  /* line 432, ../scss/media_quaires.scss */
   .content__heading {
     font-size: 60px;
     line-height: 41px; }
 
-  /* line 434, ../scss/media_quaires.scss */
+  /* line 436, ../scss/media_quaires.scss */
   .content__note {
     font-size: 38px;
     line-height: 25px; }
 
-  /* line 438, ../scss/media_quaires.scss */
+  /* line 440, ../scss/media_quaires.scss */
   .content__descr {
     font-size: 21px;
     line-height: 30px;
@@ -432,19 +437,19 @@
     margin: 0 -20px;
     width: 330px; }
 
-  /* line 446, ../scss/media_quaires.scss */
+  /* line 448, ../scss/media_quaires.scss */
   .narrow-box {
     padding: 20px 0 40px; }
-    /* line 448, ../scss/media_quaires.scss */
+    /* line 450, ../scss/media_quaires.scss */
     .narrow-box__descr {
       font-size: 20px;
       line-height: 30px; }
 
-  /* line 453, ../scss/media_quaires.scss */
+  /* line 455, ../scss/media_quaires.scss */
   .problemsSlider {
     width: 100%; }
 
-  /* line 457, ../scss/media_quaires.scss */
+  /* line 459, ../scss/media_quaires.scss */
   .btn__show-all-needs {
     border-bottom: solid 1px #000;
     border-radius: 0;
@@ -459,17 +464,17 @@
     padding: 0;
     margin-bottom: 0; }
 
-  /* line 472, ../scss/media_quaires.scss */
+  /* line 474, ../scss/media_quaires.scss */
   .f-box__email {
     background: #EFEFEF;
     border-radius: 10px;
     padding-left: 10px;
     color: #000; }
-  /* line 478, ../scss/media_quaires.scss */
+  /* line 480, ../scss/media_quaires.scss */
   .f-box__btn {
     width: 280px; }
 
-  /* line 482, ../scss/media_quaires.scss */
+  /* line 484, ../scss/media_quaires.scss */
   .copyright {
     font-size: 13px;
     line-height: 25px; } }
