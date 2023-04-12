@@ -114,6 +114,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+      
     body.lock {
         overflow: hidden;
     }
@@ -422,9 +423,8 @@
     }
 
     .btn {
-        padding: 5px 5px;
         &__primary {
-            width: 190px;
+            width: 280px;
         }
     }
     .content__heading {
