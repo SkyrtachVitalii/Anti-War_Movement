@@ -10,7 +10,9 @@
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Громадська організація "Антивоєнний рух України"</title>
+    <link rel="import" href="modals/modals.html">
 </head>
 
 <body>
@@ -26,20 +28,39 @@
                         Антивоєнний рух України
                     </div>
                 </div>
-                <nav class="d-flex">
-                    <ul class="menu d-flex">
-                        <li class="menu__item"><a class="menu__link" href="#">Проєкти</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Внесок</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Контакти</a></li>
-                        <li class="menu__item">
-                            <div class="dropdown">
-                                <a class="dropdown__item dropdown__item--active" href="#">UA</a>
-                                <span>/</span>
-                                <a class="dropdown__item" href="#">ENG</a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="nav-back">
+                    <nav class="d-flex navigation">
+                        <ul class="menu d-flex">
+                            <div class="mobile__header">
+                                <a href="#"><img class="mobile__logo" src="media/images/logo.png" alt=""></a>
+                                <p class="mobile__text">Громадська організація <br />
+                                    Антивоєнний рух України</p>
+                                <span class="mobile__burger"><img src="media/icons/close-menu.png" alt=""></span>
                             </div>
-                        </li>
-                    </ul>
-                </nav>
+                            <li class="menu__item"><a class="menu__link" href="#">Проєкти</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Внесок</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Контакти</a></li>
+                            <li class="menu__item">
+                                <div class="dropdown">
+                                    <a class="dropdown__item dropdown__item--active" href="#">UA</a>
+                                    <span>/</span>
+                                    <a class="dropdown__item" href="#">ENG</a>
+                                </div>
+                            </li>
+                            <div class="burger-social d-flex">
+                                <a href="#" class="burger-social__item"><img src="media/icons/f-facebook.png" alt=""></a>
+                                <a href="#" class="burger-social__item"><img src="media/icons/f-twitter.png" alt=""></a>
+                                <a href="#" class="burger-social__item"><img src="media/icons/f-telegram.png" alt=""></a>
+                                <a href="#" class="burger-social__item"><img src="media/icons/f-instagram.png" alt=""></a>
+                                <a href="#" class="burger-social__item"><img src="media/icons/f-youtube.png" alt=""></a>
+                            </div>
+                        </ul>
+                        
+                    </nav>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -60,7 +81,7 @@
     </header>
 
     <section>
-        <div class="container d-flex">
+        <div class="container d-flex container--heading">
             <div class="content__box">
                 <h1 class="content__heading">THE POWER OF FREEDOM</h1>
                 <p class="content__note">UKRAINE</p>
@@ -111,7 +132,7 @@
                 <p class="narrow-box__text">Рекомендуємо вже зараз записати адреси найближчих Пунктів Незламності на
                     випадок
                     аварійного відключення зв’язку чи електроенергії.</p>
-                <button type="button" class="btn btn__primary narrow-box__btn">Дивитися мапу</button>
+                <a href="#" type="button" class="btn btn__primary narrow-box__btn">Дивитися мапу</a>
             </div>
         </div>
     </section>
@@ -123,7 +144,7 @@
                     <label>
                         <input class="narrow-box__email" placeholder="E-mail" type="text" id="e-mail">
                     </label>
-                    <button type="button" class="btn btn__primary narrow-box__btn">Підписатись на новини</button>
+                    <a type="button" class="btn btn__primary narrow-box__btn">Підписатись на новини</a>
                 </form>
                 <div class="narrow-box__social d-flex">
                     <a class="narrow-box__socialIMG" href="#"><img src="media/icons/ic_fb_white.svg" alt=""></a>
@@ -177,7 +198,7 @@
                         <span class="problemsSlider__fundrasing">Збір</span>
                     </div>
                 </div>
-                <button type="button" class="btn btn__secondary">Підписатись на новини</button>
+                <a href="#" type="button" class="btn btn__secondary btn__show-all-needs">Показати всі нагальні потреби</a>
             </div>
         </div>
     </section>
@@ -209,9 +230,9 @@
                 </div>
             </div>
             <div class="docs d-flex">
-                <div class="docs__item"><a target="_blank" href="documents/Оферта_ГО_Антивоєнний_рух_України.docx">Оферта</a></div>
-                <div class="docs__item"><a target="_blank" href="documents/ПОЛІТИКА_КОНФІДЕНЦІЙНОСТІ.docx">Політика конфіденційності</a></div>
-                <div class="docs__item"><a target="_blank" href="documents/statut.pdf">Статут</a></div>
+                <a class="docs__item" target="_blank" href="documents/Оферта_ГО_Антивоєнний_рух_України.docx">Оферта</a>
+                <a class="docs__item" target="_blank" href="documents/ПОЛІТИКА_КОНФІДЕНЦІЙНОСТІ.docx">Політика конфіденційності</a>
+                <a class="docs__item" target="_blank" href="documents/statut.pdf">Статут</a>
             </div>
             <div class="f-box">
                 <div class="f-box__item">
@@ -220,18 +241,18 @@
                     </label>
                     <button type="button" class="btn btn__primary f-box__btn">Підписатись на новини</button>
                     <div class="f-social d-flex">
-                        <img src="media/icons/f-facebook.png" alt="" class="f-social__item">
-                        <img src="media/icons/f-twitter.png" alt="" class="f-social__item">
-                        <img src="media/icons/f-telegram.png" alt="" class="f-social__item">
-                        <img src="media/icons/f-instagram.png" alt="" class="f-social__item">
-                        <img src="media/icons/f-youtube.png" alt="" class="f-social__item">
+                        <a href="#" class="f-social__item"><img src="media/icons/f-facebook.png" alt=""></a>
+                        <a href="#" class="f-social__item"><img src="media/icons/f-twitter.png" alt=""></a>
+                        <a href="#" class="f-social__item"><img src="media/icons/f-telegram.png" alt=""></a>
+                        <a href="#" class="f-social__item"><img src="media/icons/f-instagram.png" alt=""></a>
+                        <a href="#" class="f-social__item"><img src="media/icons/f-youtube.png" alt=""></a>
                     </div>
                 </div>
                 <div class="f-box__item">
-                    <p class="f__heading">Зв’язатися з нами</p>
-                    <p class="f__item">м.Київ, пр-т Науки, 60</p>
-                    <p class="f__item"><a href="tel:+380639737799">+380639737799</a></p>
-                    <p class="f__item"><a href="mailto:antiwarmov@gmail.com">antiwarmov@gmail.com</a></p>
+                    <div class="f__heading">Зв’язатися з нами</div>
+                    <div class="f__item">м.Київ, пр-т Науки, 60</div>
+                    <div class="f__item"><a href="tel:+380639737799">+380639737799</a></div>
+                    <div class="f__item"><a href="mailto:antiwarmov@gmail.com">antiwarmov@gmail.com</a></div>
                 </div>
             </div>
             <div>
@@ -250,6 +271,8 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/problemsSlider.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/donate.js"></script>
 </body>
 
 </html>

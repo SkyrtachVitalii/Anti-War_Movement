@@ -61,14 +61,16 @@ footer{
     height: 178px;
 }
 
+
+
 .title{
     align-items: center;
     &__logo {
         width: 100%;
         height: auto;
         max-width: 200px;
-        min-width: 100px;
-        max-height: 100px;
+        min-width: 60px;
+        max-height: 60px;
         &:hover{
             opacity: 0.5;
         }
@@ -83,6 +85,37 @@ footer{
     }
 }
 
+.header{
+    &__burger{
+        display: none;
+    }
+}
+
+.mobile{
+    &__header{
+        display: none;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__buger{
+        position: absolute;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    &__logo{
+        width: 50px;
+        height: 50px;
+    }
+    &__text{
+        line-height: 15px;
+        font-size: 9px;
+    }
+}
+
 .menu {
     width: 577px;
     list-style: none;
@@ -93,6 +126,7 @@ footer{
     text-align: center;
     text-transform: uppercase;
     justify-content: space-around;
+
     &__link {
         text-decoration: none;
         color: $text_hf_color;
@@ -100,6 +134,10 @@ footer{
             opacity: 0.5;
         }
     }
+}
+
+.burger-social{
+    display: none;
 }
 
 .dropdown {
@@ -268,8 +306,8 @@ footer{
         font-size: 32px;
         line-height: 39px;
         text-align: center;
-        max-width: 100%;
-        width: 980px;
+        max-width: 900px;
+        width: 100%;
         margin-bottom: 40px;
     }
     &__img{
@@ -308,6 +346,8 @@ footer{
         border-top: none;
         border-left: none;
         border-right: none;
+        padding: 0 10px;
+        margin: 0 0 15px 0;
     }
     &__social{
         margin-top: 45px;
@@ -456,11 +496,9 @@ footer{
         border-color: #fff;
         border-width: 2px;
         border-style: solid;
-        & a{
-            text-decoration: none;
+        text-decoration: none;
             color: #fff;
             font-family: $font-first;
-        }
         &:hover{
             opacity: 0.5;
             cursor: pointer;
@@ -503,6 +541,9 @@ footer{
             &:first-child{
                 margin-left: 0;
             }
+            &:hover{
+                opacity: 0.5;
+            }
         }
     }
     &__heading{
@@ -540,18 +581,91 @@ footer{
 }
 
 
-.test{
-    width: 200px;
-    background-color: #08c;
-    height: 200px;
-    // margin: 10px;
+
+
+.modal{
+    &__bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1060;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        outline: 0;
+        background-color: rgba(0,0,0,0.5);
+        align-items: center;
+      }
+      &__content{
+        max-width: 881px;
+        width: 100%;
+        max-height: 642px;
+        height: 100%;
+        background: #FFFFFF;
+        border-radius: 20px;
+        margin: 0 auto;
+        background-color: #fefefe;
+        border: 1px solid #999;
+        transition: opacity 400ms ease-in;
+      }
+      &__close{
+        display: block;
+        color: #909bb5;
+        font-size: 70px;
+        font-weight: 600;
+        text-align: right;
+        margin-right: 20px;
+        &:hover, :focus{
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+      &__content{
+        padding: 30px;
+      }
+      &__heading{
+        text-align: center;
+        font-family: $font-first;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 50px;
+      }
+      &__btnBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & button:last-child{
+            margin-top: 15px;
+        }
+      }
+      &__btn{
+        background: #D9D9D9;
+        border-radius: 20px;
+        width: 580px;
+        height: 50px;
+        margin: 5px 0;
+        text-align: left;
+        padding: 0 60px;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1rem;
+        border: none;
+        &:hover{
+            background-color: #fce000;
+            opacity: 0.5;
+        }
+      }
 }
 
-
-// Media-quaries 
-// X-Small 	None 	<576px
-// Small 	sm 	≥576px
-// Medium 	md 	≥768px
-// Large 	lg 	≥992px
-// Extra large 	xl 	≥1200px
-// Extra extra large 	xxl 	≥1400px
+.modalDonateTo{
+    display: none;
+}

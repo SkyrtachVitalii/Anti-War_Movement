@@ -1,0 +1,480 @@
+@media only screen and (max-width: 1800px) {
+  /* line 2, ../scss/media_quaires.scss */
+  .h-content__text {
+    margin-top: 0; } }
+@media only screen and (max-width: 1200px) {
+  /* line 11, ../scss/media_quaires.scss */
+  .title__text {
+    font-size: 24px; }
+
+  /* line 15, ../scss/media_quaires.scss */
+  .menu {
+    width: 415px;
+    font-size: 16px; }
+
+  /* line 20, ../scss/media_quaires.scss */
+  .h-content__text {
+    margin-bottom: 40px;
+    width: 469px;
+    font-size: 22px;
+    line-height: 32px; }
+
+  /* line 27, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 95px;
+    line-height: 72px; }
+
+  /* line 32, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 21px;
+    line-height: 24px;
+    width: 323px; } }
+@media only screen and (max-width: 992px) {
+  /* line 40, ../scss/media_quaires.scss */
+  .top--menu {
+    height: 110px; }
+
+  /* line 44, ../scss/media_quaires.scss */
+  .title__text {
+    font-size: 20px; }
+
+  /* line 48, ../scss/media_quaires.scss */
+  .menu {
+    width: 415px;
+    font-size: 16px; }
+
+  /* line 53, ../scss/media_quaires.scss */
+  .h-content {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center; }
+
+  /* line 59, ../scss/media_quaires.scss */
+  .h-content__text {
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 28px;
+    line-height: 36px;
+    padding: 0 70px; }
+
+  /* line 67, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 60px;
+    line-height: 53px; }
+
+  /* line 72, ../scss/media_quaires.scss */
+  .content__box--heading {
+    margin-left: 90px;
+    margin-right: 10px;
+    margin-top: 90px; }
+
+  /* line 78, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 21px;
+    line-height: 24px;
+    width: 323px; }
+
+  /* line 84, ../scss/media_quaires.scss */
+  .content__note {
+    font-size: 36px;
+    line-height: 36px; }
+
+  /* line 89, ../scss/media_quaires.scss */
+  .narrow-box__email {
+    width: 280px;
+    background: #efefef;
+    border-radius: 10px;
+    border: none; }
+  /* line 95, ../scss/media_quaires.scss */
+  .narrow-box__form {
+    display: block;
+    text-align: center; }
+  /* line 99, ../scss/media_quaires.scss */
+  .narrow-box__socialIMG:nth-child(2n + 1) {
+    margin: 0 20px; }
+  /* line 102, ../scss/media_quaires.scss */
+  .narrow-box__btn {
+    width: 280px; }
+
+  /* line 107, ../scss/media_quaires.scss */
+  .f__heading {
+    margin: 40px auto 10px; }
+  /* line 110, ../scss/media_quaires.scss */
+  .f__item {
+    margin: 0 auto 10px; } }
+@media only screen and (max-width: 768px) {
+  /* line 117, ../scss/media_quaires.scss */
+  body.lock {
+    overflow: hidden; }
+
+  /* line 121, ../scss/media_quaires.scss */
+  .title__text {
+    font-size: 24px; }
+
+  /* line 126, ../scss/media_quaires.scss */
+  .header__burger {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    right: 7%;
+    cursor: pointer; }
+    /* line 133, ../scss/media_quaires.scss */
+    .header__burger:hover {
+      opacity: 0.5; }
+    /* line 136, ../scss/media_quaires.scss */
+    .header__burger::before, .header__burger::after {
+      content: "";
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      right: 0; }
+    /* line 145, ../scss/media_quaires.scss */
+    .header__burger span {
+      position: absolute;
+      background-color: #fff;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 9px; }
+    /* line 153, ../scss/media_quaires.scss */
+    .header__burger::before {
+      top: 0; }
+    /* line 156, ../scss/media_quaires.scss */
+    .header__burger::after {
+      bottom: 0; }
+
+  /* line 162, ../scss/media_quaires.scss */
+  .nav-back {
+    display: none;
+    z-index: 9;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: 0; }
+
+  /* line 173, ../scss/media_quaires.scss */
+  .navigation {
+    display: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 10; }
+
+  /* line 180, ../scss/media_quaires.scss */
+  .mobile__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  /* line 184, ../scss/media_quaires.scss */
+  .menu {
+    position: fixed;
+    top: calc(14%);
+    left: calc(28%);
+    right: 0;
+    width: 400px;
+    height: 70%;
+    width: 300px;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: #000;
+    display: block;
+    cursor: pointer; }
+
+  /* line 199, ../scss/media_quaires.scss */
+  .h-content {
+    margin-bottom: 20px; }
+
+  /* line 203, ../scss/media_quaires.scss */
+  .h-content__text {
+    margin-top: 90px;
+    margin-bottom: 106px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 0 25px; }
+
+  /* line 212, ../scss/media_quaires.scss */
+  .h-content__note {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 20px; }
+
+  /* line 218, ../scss/media_quaires.scss */
+  .burger-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 60px; }
+    /* line 223, ../scss/media_quaires.scss */
+    .burger-social__item:hover {
+      opacity: 0.5; }
+    /* line 226, ../scss/media_quaires.scss */
+    .burger-social__item:first-child {
+      margin-left: 10px; }
+    /* line 229, ../scss/media_quaires.scss */
+    .burger-social__item:last-child {
+      margin-right: 10px; }
+
+  /* line 235, ../scss/media_quaires.scss */
+  .content__box {
+    margin: 30px 0; }
+
+  /* line 239, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 43px;
+    line-height: 42px; }
+
+  /* line 244, ../scss/media_quaires.scss */
+  .content__box--heading {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 35px; }
+
+  /* line 250, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 18px;
+    line-height: 20px;
+    width: 292px; }
+
+  /* line 256, ../scss/media_quaires.scss */
+  .content__note {
+    font-size: 25px;
+    line-height: 15px; }
+
+  /* line 261, ../scss/media_quaires.scss */
+  .info__text {
+    font-size: 20px;
+    line-height: 29px; }
+
+  /* line 266, ../scss/media_quaires.scss */
+  .narrow-box {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    /* line 269, ../scss/media_quaires.scss */
+    .narrow-box__heading {
+      font-size: 40px;
+      width: 410px; }
+
+  /* line 274, ../scss/media_quaires.scss */
+  .f-box {
+    display: block;
+    text-align: center;
+    padding: 0; }
+    /* line 278, ../scss/media_quaires.scss */
+    .f-box__item {
+      width: 100%;
+      margin: 0 auto; }
+      /* line 281, ../scss/media_quaires.scss */
+      .f-box__item button {
+        margin: 0 auto; }
+    /* line 285, ../scss/media_quaires.scss */
+    .f-box__email {
+      margin-bottom: 20px; }
+
+  /* line 289, ../scss/media_quaires.scss */
+  .f-social {
+    margin-top: 40px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; } }
+@media only screen and (max-width: 576px) {
+  /* line 296, ../scss/media_quaires.scss */
+  .menu {
+    position: fixed;
+    left: calc(21%); }
+
+  /* line 301, ../scss/media_quaires.scss */
+  .h-content__text {
+    margin-top: 40px;
+    margin-bottom: 50px; }
+
+  /* line 306, ../scss/media_quaires.scss */
+  .title__text {
+    font-size: 20px; }
+
+  /* line 310, ../scss/media_quaires.scss */
+  .container--heading {
+    display: block; }
+
+  /* line 315, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 81px;
+    line-height: 57px; }
+
+  /* line 321, ../scss/media_quaires.scss */
+  .content__box--heading button {
+    margin: 0 auto; }
+
+  /* line 326, ../scss/media_quaires.scss */
+  .content__note {
+    font-size: 45px;
+    line-height: 38px; }
+
+  /* line 331, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 32px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0px auto 40px; }
+
+  /* line 337, ../scss/media_quaires.scss */
+  .info__main-text {
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px; }
+
+  /* line 343, ../scss/media_quaires.scss */
+  .btn__show-all-needs {
+    width: 100%; }
+
+  /* line 346, ../scss/media_quaires.scss */
+  .docs {
+    margin: 5px auto;
+    display: block;
+    line-height: 30px;
+    width: 100%; }
+    /* line 351, ../scss/media_quaires.scss */
+    .docs__item {
+      display: block;
+      margin: 0;
+      padding: 3px;
+      border: none; } }
+@media only screen and (max-width: 450px) {
+  /* line 361, ../scss/media_quaires.scss */
+  .menu {
+    left: calc(16%); }
+
+  /* line 365, ../scss/media_quaires.scss */
+  .title__text {
+    font-size: 18px; }
+
+  /* line 368, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 64px;
+    line-height: 45px; }
+
+  /* line 372, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 21px;
+    line-height: 30px; }
+
+  /* line 377, ../scss/media_quaires.scss */
+  .narrow-box__heading {
+    font-size: 30px;
+    width: 100%;
+    line-height: 42px; }
+  /* line 382, ../scss/media_quaires.scss */
+  .narrow-box__descr {
+    font-size: 24px;
+    line-height: 36px; } }
+@media only screen and (max-width: 400px) {
+  /* line 390, ../scss/media_quaires.scss */
+  .title__text {
+    font-size: 14px; }
+
+  /* line 394, ../scss/media_quaires.scss */
+  .menu {
+    left: calc(12%); }
+
+  /* line 397, ../scss/media_quaires.scss */
+  .h-content__text {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center; }
+
+  /* line 404, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 64px;
+    line-height: 45px; }
+
+  /* line 408, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 21px;
+    line-height: 30px; } }
+@media only screen and (max-width: 360px) {
+  /* line 415, ../scss/media_quaires.scss */
+  .menu {
+    position: absolute;
+    line-height: 60px;
+    width: 100vw;
+    height: calc(100vh - 25%);
+    top: 0;
+    left: 0; }
+
+  /* line 424, ../scss/media_quaires.scss */
+  .btn {
+    padding: 5px 5px; }
+    /* line 426, ../scss/media_quaires.scss */
+    .btn__primary {
+      width: 190px; }
+
+  /* line 430, ../scss/media_quaires.scss */
+  .content__heading {
+    font-size: 60px;
+    line-height: 41px; }
+
+  /* line 434, ../scss/media_quaires.scss */
+  .content__note {
+    font-size: 38px;
+    line-height: 25px; }
+
+  /* line 438, ../scss/media_quaires.scss */
+  .content__descr {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: left;
+    padding: 0;
+    margin: 0 -20px;
+    width: 330px; }
+
+  /* line 446, ../scss/media_quaires.scss */
+  .narrow-box {
+    padding: 20px 0 40px; }
+    /* line 448, ../scss/media_quaires.scss */
+    .narrow-box__descr {
+      font-size: 20px;
+      line-height: 30px; }
+
+  /* line 453, ../scss/media_quaires.scss */
+  .problemsSlider {
+    width: 100%; }
+
+  /* line 457, ../scss/media_quaires.scss */
+  .btn__show-all-needs {
+    border-bottom: solid 1px #000;
+    border-radius: 0;
+    background: inherit;
+    color: #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    line-height: 29px;
+    width: 324px;
+    padding: 0;
+    margin-bottom: 0; }
+
+  /* line 472, ../scss/media_quaires.scss */
+  .f-box__email {
+    background: #EFEFEF;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #000; }
+  /* line 478, ../scss/media_quaires.scss */
+  .f-box__btn {
+    width: 280px; }
+
+  /* line 482, ../scss/media_quaires.scss */
+  .copyright {
+    font-size: 13px;
+    line-height: 25px; } }
+
+/*# sourceMappingURL=media.css.map */
