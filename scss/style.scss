@@ -16,6 +16,10 @@ $text_footer_color: #000000;
     box-sizing: border-box;
 }
 
+body.lock {
+    overflow: hidden;
+}
+
 header {
     font-family: $font-first;
     color: $text_hf_color;

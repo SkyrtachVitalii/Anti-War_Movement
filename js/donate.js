@@ -19,11 +19,13 @@ $(document).ready(function() {
     $('#donate').click(function() {
         modalDonateTo.innerHTML = block;
         $("#modalDonateTo").addClass("modal__bg");
+        $("body").addClass("lock");
         modalDonateTo.style.display = "flex";
 
         $('#modalClose').click(function() {
           modalDonateTo.style.display = "none";
             $("#modalDonateTo").removeClass("modal__bg");
+            $("body").removeClass("lock");
         });
     });
      
@@ -31,6 +33,7 @@ $(document).ready(function() {
         if (event.target == modalDonateTo) {
             modalDonateTo.style.display = "none";
             $("#modalDonateTo").removeClass("modal__bg");
+            $("body").removeClass("lock");
         }
     }
 
