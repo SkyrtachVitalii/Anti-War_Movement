@@ -33,13 +33,39 @@ let modalDonateCurencyHTML = `<div class="modal__content">
 </div>`;
 
 let modalDonateCardInfoHTML = `<div class="modal__content">
-<span id="modalClose"  class="modal__close">×</span>
+<span id="modalClose" class="modal__close">×</span>
 <div class="modal__btnBlock">
-  <button type="button" class="modal__btn">(UAH) UKRAINIrdgrege ergrege erg er</button>
-  <button type="button" class="modal__btn">(USD) rdgrege ergrege erg er</button>
-  <button type="button" class="modal__btn">rdgrege ergrege erg er</button>
-  <button id="modalBtnNext" type="button" class="btn btn__primary modalDonateCurency">Далі</button>
+    <form class="donate-form">
+        <div class="donate-form__block donate-form__block--card">
+            <div class="donate-form-card">
+                <div class="donate-form-card__title-number">Номер карти</div>
+                <label><input id="card__number" class="donate-form-card__number" placeholder="7654 - 7896 - 0987 - 1234"></input></label>
+            </div>
+            <div class="donate-form-card d-flex">
+                <div class="inner-block">
+                    <div class="inner-block__title">Термін дії</div>
+                    <label><input id="mm_yy" class="inner-block__input" type="text" placeholder="MM/YY"></input></label>
+                </div>
+                <div class="inner-block">
+                    <div class="inner-block__title">CVV</div>
+                    <label><input id="cvv" class="inner-block__input" type="text" placeholder="000"></input></label>
+                </div>
+            </div>
+        </div>
+        <div class="donate-form__block">
+            <div  class="donate-form__title-sum">Вкажіть суму пожертви</div>
+            <div class="donate-form-card d-flex">
+                <div class="inner-block">
+                    <label><input id="sumDonate" class="inner-block__input inner-block__input--sum" type="text" placeholder="0.00"></input></label>
+                </div>
+                <div class="inner-block">
+                    <label><input id="curencyDonate" class="inner-block__input inner-block__input--sum" type="text" placeholder="UAN"></input></label>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
+<button id="modalBtnNext" type="button" class="btn btn__primary donate-form__btn">Далі</button>
 </div>`;
 
   let buttonsDonate = document.querySelectorAll('.btn__donate');
@@ -135,5 +161,11 @@ let modalDonateCardInfoHTML = `<div class="modal__content">
     addButtonsClose();
   }
 
+
+
+
+  $("#card__number").inputmask({"mask": "9999 - 9999 - 9999 - 9999"});
+  $("#mm_yy").inputmask({"mask": "99/99"});
+  $("#cvv").inputmask({"mask": "999"});
 });
 

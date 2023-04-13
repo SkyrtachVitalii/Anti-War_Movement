@@ -623,7 +623,9 @@ footer {
 
 /* line 590, ../scss/style.scss */
 .modal {
-  display: none; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   /* line 592, ../scss/style.scss */
   .modal__bg {
     position: fixed;
@@ -653,8 +655,9 @@ footer {
     background-color: #fefefe;
     border: 1px solid #999;
     -webkit-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in; }
-  /* line 619, ../scss/style.scss */
+    transition: opacity 400ms ease-in;
+    position: relative; }
+  /* line 620, ../scss/style.scss */
   .modal__close {
     display: block;
     color: #909bb5;
@@ -662,15 +665,15 @@ footer {
     font-weight: 600;
     text-align: right;
     margin-right: 20px; }
-    /* line 626, ../scss/style.scss */
+    /* line 627, ../scss/style.scss */
     .modal__close:hover, .modal__close :focus {
       color: #000;
       text-decoration: none;
       cursor: pointer; }
-  /* line 632, ../scss/style.scss */
+  /* line 633, ../scss/style.scss */
   .modal__content {
     padding: 30px; }
-  /* line 635, ../scss/style.scss */
+  /* line 636, ../scss/style.scss */
   .modal__heading {
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -678,7 +681,7 @@ footer {
     font-weight: 300;
     font-size: 24px;
     line-height: 50px; }
-  /* line 643, ../scss/style.scss */
+  /* line 644, ../scss/style.scss */
   .modal__btnBlock {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -690,10 +693,10 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    /* line 647, ../scss/style.scss */
+    /* line 648, ../scss/style.scss */
     .modal__btnBlock button:last-child {
       margin-top: 15px; }
-  /* line 651, ../scss/style.scss */
+  /* line 652, ../scss/style.scss */
   .modal__btn {
     background: #D9D9D9;
     border-radius: 20px;
@@ -710,17 +713,89 @@ footer {
     cursor: pointer;
     font-size: 1rem;
     border: none; }
-    /* line 667, ../scss/style.scss */
+    /* line 668, ../scss/style.scss */
     .modal__btn:hover {
       background-color: #fce000;
       opacity: 0.5; }
 
-/* line 674, ../scss/style.scss */
-.modalDonateTo {
-  display: none; }
+/* line 683, ../scss/style.scss */
+.donate-form {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 690, ../scss/style.scss */
+  .donate-form__block {
+    width: 394px;
+    height: 244px;
+    padding: 13px 39px; }
+    /* line 694, ../scss/style.scss */
+    .donate-form__block--card {
+      background: -webkit-gradient(linear, left top, left bottom, from(#0057B8), to(#D6B400));
+      background: linear-gradient(180deg, #0057B8 0%, #D6B400 100%);
+      border-radius: 30px; }
+  /* line 699, ../scss/style.scss */
+  .donate-form__title-sum {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000000; }
+  /* line 705, ../scss/style.scss */
+  .donate-form__btn {
+    position: absolute;
+    right: 100px;
+    bottom: 85px; }
 
-/* line 678, ../scss/style.scss */
-.modalDonateCard {
-  display: none; }
+/* line 714, ../scss/style.scss */
+.donate-form-card__title-number {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 38px; }
+/* line 719, ../scss/style.scss */
+.donate-form-card__number {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 38px;
+  width: 240px;
+  height: 38px;
+  background: inherit;
+  color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 7px;
+  margin-bottom: 38px; }
+
+/* line 735, ../scss/style.scss */
+.inner-block {
+  width: 50%; }
+  /* line 737, ../scss/style.scss */
+  .inner-block__title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 38px; }
+  /* line 742, ../scss/style.scss */
+  .inner-block__input {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 38px;
+    width: 77px;
+    height: 38px;
+    background: inherit;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 7px;
+    margin-right: 120px; }
+    /* line 755, ../scss/style.scss */
+    .inner-block__input--sum {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 38px;
+      color: #000000;
+      width: 135px;
+      margin-top: 24px; }
 
 /*# sourceMappingURL=style.css.map */

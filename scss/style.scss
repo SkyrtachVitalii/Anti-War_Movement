@@ -588,7 +588,7 @@ footer{
 
 
 .modal{
-    display: none;
+    display: flex;
     &__bg{
         position: fixed;
         top: 0;
@@ -615,6 +615,7 @@ footer{
         background-color: #fefefe;
         border: 1px solid #999;
         transition: opacity 400ms ease-in;
+        position: relative;
       }
       &__close{
         display: block;
@@ -671,10 +672,93 @@ footer{
       }
 }
 
-.modalDonateTo{
-    display: none;
+// .modalDonateTo{
+//     display: none;
+// }
+
+// .modalDonateCard{
+//     display: none;
+// }
+
+.donate-form{
+    font-family: $font-second;
+    color: #fff;
+    display: flex;
+    
+    // width: 100%;
+    
+    &__block{
+        width: 394px;
+        height: 244px;
+        padding: 13px 39px;
+        &--card{
+            background: linear-gradient(180deg, #0057B8 0%, #D6B400 100%);
+            border-radius: 30px;
+        }
+    }
+    &__title-sum{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 38px;
+        color: #000000;
+    }
+    &__btn{
+        position: absolute;
+        right: 100px;
+        bottom: 85px;
+    }
 }
 
-.modalDonateCard{
-    display: none;
+.donate-form-card{
+    
+    &__title-number{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 38px;
+    }
+    &__number{
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 38px;
+        width: 240px;
+        height: 38px;
+        background: inherit;
+        color: #fff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding-bottom: 7px;
+        margin-bottom: 38px;
+    }
+}
+
+.inner-block{
+    width: 50%;
+    &__title{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 38px;
+    }
+    &__input{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 38px;
+        width: 77px;
+        height: 38px;
+        background: inherit;
+        color: #fff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding-bottom: 7px;
+        margin-right: 120px;
+        &--sum{
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 38px;
+            color: #000000;
+            width: 135px;
+            margin-top: 24px;
+        }
+    }
 }
