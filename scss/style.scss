@@ -588,6 +588,7 @@ footer{
 
 
 .modal{
+    display: none;
     &__bg{
         position: fixed;
         top: 0;
@@ -671,5 +672,9 @@ footer{
 }
 
 .modalDonateTo{
+    display: none;
+}
+
+.modalDonateCard{
     display: none;
 }
